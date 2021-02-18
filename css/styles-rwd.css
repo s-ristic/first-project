@@ -1,0 +1,437 @@
+@media screen and (max-width: 1200px) {
+    /* O T H E R   P A G E S */
+    #content {
+        width: 65%;
+    }
+
+    #info {
+        width: 25%;
+    }
+
+    #info-col-left,
+    #info-col-right {
+        width: 100%;
+    }
+
+    #info-col-left img {
+        width: 75%;
+        height: 75%;
+    }
+
+    #info-akcija {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    *:focus {
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        /* bez focusa */
+    }
+
+    #top {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    /* M E N U */
+    #scroll-fixed {
+        position: relative;
+        /* z-index u style-pc*/
+    }
+
+    #scroll-fixed.scroll-fixed {
+        animation: none;
+    }
+
+    #menu-btn {
+        display: inline-block;
+        position: absolute;
+        top: -65px;
+        right: 15px;
+        outline: none;
+        border: none;
+        background: none;
+    }
+
+    #menu-btn i {
+        font-size: 50px;
+        transition: .5s;
+    }
+
+    #menu-btn i.rotate {
+        transform: rotate(-90deg);
+    }
+
+    nav {
+        clear: both;
+        /* logo pluta */
+        position: relative;
+    }
+
+    #menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        background: #fff;
+    }
+    #menu > li:last-child {
+        border-bottom: 2px solid #000;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .5)
+    }
+
+    #menu > li > a {
+        height: 60px;
+        line-height: 60px;
+        padding-left: 20%;
+    }
+
+    #menu > li > a,
+    #menu > li:hover > a {
+        border-top: 1px solid #c0c0c0;
+        line-height: 60px;
+    }
+
+    #menu i.rotate {
+        transform: rotate(180deg);
+    }
+
+    #submenu {
+        transform: none;
+        position: static;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        column-count: 1;
+        width: 100%;
+        padding: 10px;
+        background: var(--bg-gray-dd);
+    }
+
+    #submenu li {
+        border-bottom: 1px solid var(--c-gray-d);
+    }
+
+    #submenu a {
+        display: block;
+        padding-left: 10%;
+        color: #fff;
+    }
+    #submenu img {
+        display: none;
+    }
+
+    /* S I D E B A R */
+    #sidebar button {
+        top: 150px;
+        right: 10px;
+    }
+
+    #social-media {
+        top: 195px;
+    }
+
+    #social-media {
+        right: 5px;
+    }
+
+    #social-media li {
+        transform: translateX(70px);
+    }
+
+    #social-media.hide li {
+        transform: translateX(0);
+    }
+
+    /* F O O T E R */
+    #go-top {
+        display: none;
+    }
+
+    /* O T H E R   P A G E S */
+    #info-akcija,
+    #info-all-in {
+        box-shadow: -1px 1px 5px #404040;
+    }
+
+    #info-akcija:hover,
+    #info-all-in:hover {
+        transform: none;
+    }
+
+    #info-col-right p {
+        opacity: 1;
+    }
+
+    #info-col-right p:before {
+        display: none;
+    }
+
+    /* P O R T F O L I O */
+    .hover-box:hover img {
+        transform: none;
+    }
+
+    .portfolio-overlay {
+        display: none
+    }
+
+    /* C O N T A C T */
+    form {
+        margin-bottom: 100px;
+    }
+
+    textarea {
+        width: 100%;
+
+    }
+    .contact-letter {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* W E L C O M E */
+    #welcome {
+        padding: 60px 30px 130px;
+    }
+
+    #welcome h1,
+    #welcome p,
+    #welcome a {
+        margin-left: 0;
+    }
+
+    #welcome h1 {
+        line-height: 70px;
+    }
+
+    #welcome p {
+        line-height: 50px;
+    }
+
+    /* S E R V I C E S */
+    #services {
+        padding: 60px 20px;
+    }
+
+    .service {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    #web-design {
+        margin-top: 200px;
+    }
+
+    /* A L L    I N C L U S I V E */
+    #all-inclusive {
+        padding: 60px 30px;
+    }
+
+    #all-inclusive h2,
+    #all-inclusive p,
+    #all-inclusive a {
+        margin-left: 0;
+        transform: none;
+    }
+
+    #all-inclusive p {
+        margin-top: 30px;
+    }
+
+    /* G O O D B Y E - same for all */
+    #goodbye {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    #goodbye figure {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 15px auto 0;
+    }
+
+    /* F O O T E R */
+    .footer-third {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        padding: 15px 20px;
+    }
+
+    .footer-third ul {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    #footer-social-media {
+        padding-top: 30px
+    }
+    #footer-social-media .sm-text {
+        display: none;
+    }
+
+    #footer-social-media ul {
+        text-align: center;
+    }
+
+    #footer-social-media li {
+        margin: 0 -4px 0 15px;
+        display: inline-block;
+    }
+
+    #footer-social-media li:first-child {
+        margin-left: 0;
+    }
+    
+    #footer-social-media a {
+        transition: none;
+    }
+    
+    #footer-social-media a:hover {
+        background: none !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    #footer-nav li {
+        padding: 5px;
+    }
+
+    #footer-contact {
+        padding-bottom: 30px;
+    }
+
+    /* O T H E R   P A G E S */
+    #headline-image {
+        padding: 60px 30px;
+    }
+
+    #headline-image p {
+        font-size: 40px;
+    }
+
+    #headline h1 {
+        padding: 10px 50px;
+        letter-spacing: 0;
+    }
+
+    #content,
+    #info {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    #content {
+        padding: 60px 20px;
+    }
+
+    #content img {
+        width: 75%;
+        height: 75%;
+    }
+
+    /* R I G H T S I D E */
+    #info {
+        padding: 0 20px 60px;
+    }
+
+    #info-col-left,
+    #info-col-right {
+        float: none;
+    }
+
+    #info-col-left img {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    #info-akcija,
+    #info-all-in {
+        margin: 30px auto 0;
+        width: 100%;
+    }
+
+    /* A L L   I N C L U S I V E */
+    .all-col-left,
+    .all-col-right {
+        float: none;
+        width: 100%;
+    }
+
+    /* P O R T F O L I O */
+    .portfolio-col-left,
+    .portfolio-col-right {
+        float: none;
+        width: 100%;
+    }
+
+
+    /* P R I C E L I S T */
+    .pricelist-col-left,
+    .pricelist-col-right {
+        float: none;
+        width: 100%;
+    }
+
+    .pricelist-col-right {
+        margin-top: 30px;
+    }
+
+    /* C O N T A C T */
+    form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* A B O U T */
+    .about-about {
+        padding: 60px 30px;
+    }
+    .about-icon {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .about-icon i {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        font-size: 100px;
+        text-shadow: 0 0 10px #fff;
+    }
+
+    .mission-vision {
+        display: block;
+        padding: 60px 20px;
+    }
+    .mission,
+    .vision {
+        padding: 0;
+    }
+    .mission {
+        margin-bottom: 40px;
+    }
+
+    .about-info {
+        display: block;
+        padding: 60px 20px;
+    }
+    .about-third {
+        margin-bottom: 40px;
+        border: 0;
+        padding: 0;
+    }
+    .about-third:last-child {
+        margin-bottom: 0;
+    }
+}
